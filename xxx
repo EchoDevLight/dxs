@@ -1,0 +1,897 @@
+-- Made by Tokumei/Aresuu
+-- Instances:
+local BoogaBV1 = Instance.new("ScreenGui")
+local BoogaBV1_2 = Instance.new("Frame")
+local Speed = Instance.new("TextButton")
+local SpeedBind = Instance.new("TextBox")
+local AutoPickUp = Instance.new("TextButton")
+local AutoPickUpBind = Instance.new("TextBox")
+local CraftAnyItem = Instance.new("TextButton")
+local CraftItem = Instance.new("TextBox")
+local Title = Instance.new("TextLabel")
+local InfinityChest = Instance.new("TextButton")
+local RevizV2 = Instance.new("TextButton")
+local GodHut = Instance.new("TextButton")
+local MadebyTokumeiAresuu = Instance.new("TextLabel")
+local CreditOwners = Instance.new("TextLabel")
+local AutoBreak = Instance.new("TextButton")
+local Breakkey = Instance.new("TextBox")
+local EmeraldSetCrafter = Instance.new("TextButton")
+local FEme = Instance.new("Frame")
+local SFrameEme = Instance.new("ScrollingFrame")
+local EmeraldHelmet = Instance.new("TextButton")
+local EmeraldChestplate = Instance.new("TextButton")
+local EmeraldGreaves = Instance.new("TextButton")
+local EmeraldPick = Instance.new("TextButton")
+local EmeraldBlade = Instance.new("TextButton")
+local EmeraldAxe = Instance.new("TextButton")
+local EmeraldBag = Instance.new("TextButton")
+local GodSetCrafter = Instance.new("TextButton")
+local FGod = Instance.new("Frame")
+local SFrameGod = Instance.new("ScrollingFrame")
+local GodHalo = Instance.new("TextButton")
+local GodChestplate = Instance.new("TextButton")
+local GodLegs = Instance.new("TextButton")
+local GodRock = Instance.new("TextButton")
+local GodPick = Instance.new("TextButton")
+local GodAxe = Instance.new("TextButton")
+local GodBag = Instance.new("TextButton")
+local OOFHorn = Instance.new("TextButton")
+local VoidSetCrafter = Instance.new("TextButton")
+local FVOID = Instance.new("Frame")
+local SFrameVoid = Instance.new("ScrollingFrame")
+local VoidShroud = Instance.new("TextButton")
+local VoidChestplate = Instance.new("TextButton")
+local VoidGreaves = Instance.new("TextButton")
+local VoidBag = Instance.new("TextButton")
+local TeletoVoid = Instance.new("TextButton")
+local Open = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+--Properties:
+BoogaBV1.Name = "BoogaBV1"
+BoogaBV1.Parent = game.CoreGui
+
+BoogaBV1_2.Name = "BoogaBV1"
+BoogaBV1_2.Parent = BoogaBV1
+BoogaBV1_2.Active = true
+BoogaBV1_2.BackgroundColor3 = Color3.new(1, 0.65098, 0)
+BoogaBV1_2.BackgroundTransparency = 0.30000001192093
+BoogaBV1_2.BorderColor3 = Color3.new(0, 0, 0)
+BoogaBV1_2.BorderSizePixel = 5
+BoogaBV1_2.Position = UDim2.new(0.315448642, 0, 0.254980087, 0)
+BoogaBV1_2.Size = UDim2.new(0, 487, 0, 245)
+BoogaBV1_2.Draggable = true
+
+Speed.Name = "Speed"
+Speed.Parent = BoogaBV1_2
+Speed.BackgroundColor3 = Color3.new(0, 0, 0)
+Speed.BorderColor3 = Color3.new(0, 0, 0)
+Speed.BorderSizePixel = 3
+Speed.Position = UDim2.new(0.0164271053, 0, 0.877551019, 0)
+Speed.Size = UDim2.new(0, 117, 0, 25)
+Speed.Font = Enum.Font.Cartoon
+Speed.Text = "Speed"
+Speed.TextColor3 = Color3.new(1, 1, 1)
+Speed.TextScaled = true
+Speed.TextSize = 14
+Speed.TextStrokeColor3 = Color3.new(1, 0, 0.0156863)
+Speed.TextWrapped = true
+
+SpeedBind.Name = "SpeedBind"
+SpeedBind.Parent = Speed
+SpeedBind.BackgroundColor3 = Color3.new(0.368627, 0.368627, 0.368627)
+SpeedBind.BorderColor3 = Color3.new(0, 0, 0)
+SpeedBind.BorderSizePixel = 3
+SpeedBind.Position = UDim2.new(1.15199995, 0, 0, 0)
+SpeedBind.Size = UDim2.new(0, 83, 0, 26)
+SpeedBind.Font = Enum.Font.Cartoon
+SpeedBind.Text = "Key Bind"
+SpeedBind.TextColor3 = Color3.new(0, 0, 0)
+SpeedBind.TextScaled = true
+SpeedBind.TextSize = 14
+SpeedBind.TextWrapped = true
+
+AutoPickUp.Name = "Auto Pick Up"
+AutoPickUp.Parent = BoogaBV1_2
+AutoPickUp.BackgroundColor3 = Color3.new(0, 0, 0)
+AutoPickUp.BorderColor3 = Color3.new(0, 0, 0)
+AutoPickUp.BorderSizePixel = 3
+AutoPickUp.Position = UDim2.new(0.0164271053, 0, 0.596045792, 0)
+AutoPickUp.Size = UDim2.new(0, 117, 0, 25)
+AutoPickUp.Font = Enum.Font.Cartoon
+AutoPickUp.Text = "Auto Pick Up"
+AutoPickUp.TextColor3 = Color3.new(1, 1, 1)
+AutoPickUp.TextScaled = true
+AutoPickUp.TextSize = 14
+AutoPickUp.TextStrokeColor3 = Color3.new(1, 0, 0.0156863)
+AutoPickUp.TextWrapped = true
+
+AutoPickUpBind.Name = "AutoPickUpBind"
+AutoPickUpBind.Parent = AutoPickUp
+AutoPickUpBind.BackgroundColor3 = Color3.new(0.368627, 0.368627, 0.368627)
+AutoPickUpBind.BorderColor3 = Color3.new(0, 0, 0)
+AutoPickUpBind.BorderSizePixel = 3
+AutoPickUpBind.Position = UDim2.new(1.15199995, 0, 0, 0)
+AutoPickUpBind.Size = UDim2.new(0, 83, 0, 25)
+AutoPickUpBind.Font = Enum.Font.Cartoon
+AutoPickUpBind.PlaceholderColor3 = Color3.new(0.698039, 0.698039, 0.698039)
+AutoPickUpBind.Text = "Key Bind"
+AutoPickUpBind.TextColor3 = Color3.new(0, 0, 0)
+AutoPickUpBind.TextScaled = true
+AutoPickUpBind.TextSize = 14
+AutoPickUpBind.TextStrokeColor3 = Color3.new(1, 0, 0.0156863)
+AutoPickUpBind.TextWrapped = true
+
+CraftAnyItem.Name = "Craft Any Item"
+CraftAnyItem.Parent = BoogaBV1_2
+CraftAnyItem.BackgroundColor3 = Color3.new(0, 0, 0)
+CraftAnyItem.BorderColor3 = Color3.new(0, 0, 0)
+CraftAnyItem.BorderSizePixel = 2
+CraftAnyItem.Position = UDim2.new(0.0164271053, 0, 0.461892724, 0)
+CraftAnyItem.Size = UDim2.new(0, 117, 0, 25)
+CraftAnyItem.Font = Enum.Font.Cartoon
+CraftAnyItem.Text = "Craft Any Item"
+CraftAnyItem.TextColor3 = Color3.new(1, 1, 1)
+CraftAnyItem.TextScaled = true
+CraftAnyItem.TextSize = 14
+CraftAnyItem.TextStrokeColor3 = Color3.new(1, 0, 0.0156863)
+CraftAnyItem.TextWrapped = true
+
+CraftItem.Name = "Craft Item"
+CraftItem.Parent = CraftAnyItem
+CraftItem.BackgroundColor3 = Color3.new(0.368627, 0.368627, 0.368627)
+CraftItem.BorderColor3 = Color3.new(0, 0, 0)
+CraftItem.BorderSizePixel = 3
+CraftItem.Position = UDim2.new(1.15384614, 0, 0, 0)
+CraftItem.Size = UDim2.new(0, 84, 0, 25)
+CraftItem.Font = Enum.Font.Cartoon
+CraftItem.Text = "Item Name"
+CraftItem.TextColor3 = Color3.new(0, 0, 0)
+CraftItem.TextScaled = true
+CraftItem.TextSize = 14
+CraftItem.TextStrokeColor3 = Color3.new(1, 0, 0.0156863)
+CraftItem.TextWrapped = true
+
+Title.Name = "Title"
+Title.Parent = BoogaBV1_2
+Title.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+Title.Size = UDim2.new(0, 487, 0, 29)
+Title.Font = Enum.Font.Cartoon
+Title.Text = "BoogaBitchesV1"
+Title.TextColor3 = Color3.new(0, 0, 0)
+Title.TextScaled = true
+Title.TextSize = 16
+Title.TextWrapped = true
+
+InfinityChest.Name = "Infinity Chest"
+InfinityChest.Parent = BoogaBV1_2
+InfinityChest.BackgroundColor3 = Color3.new(0, 0, 0)
+InfinityChest.BorderColor3 = Color3.new(0, 0, 0)
+InfinityChest.BorderSizePixel = 3
+InfinityChest.Position = UDim2.new(0.291581094, 0, 0.32911393, 0)
+InfinityChest.Size = UDim2.new(0, 117, 0, 21)
+InfinityChest.Font = Enum.Font.Cartoon
+InfinityChest.Text = "Infinity Chest [Q]"
+InfinityChest.TextColor3 = Color3.new(1, 1, 1)
+InfinityChest.TextScaled = true
+InfinityChest.TextSize = 14
+InfinityChest.TextStrokeColor3 = Color3.new(1, 0, 0.0156863)
+InfinityChest.TextWrapped = true
+
+RevizV2.Name = "Reviz V2"
+RevizV2.Parent = BoogaBV1_2
+RevizV2.BackgroundColor3 = Color3.new(0, 0, 0)
+RevizV2.BorderColor3 = Color3.new(0, 0, 0)
+RevizV2.BorderSizePixel = 3
+RevizV2.Position = UDim2.new(0.572895288, 0, 0.15611814, 0)
+RevizV2.Size = UDim2.new(0, 194, 0, 25)
+RevizV2.Font = Enum.Font.Cartoon
+RevizV2.Text = "Reviz V2"
+RevizV2.TextColor3 = Color3.new(1, 1, 1)
+RevizV2.TextScaled = true
+RevizV2.TextSize = 14
+RevizV2.TextStrokeColor3 = Color3.new(1, 0, 0.0156863)
+RevizV2.TextWrapped = true
+
+GodHut.Name = "God Hut"
+GodHut.Parent = BoogaBV1_2
+GodHut.BackgroundColor3 = Color3.new(0, 0, 0)
+GodHut.BorderColor3 = Color3.new(0, 0, 0)
+GodHut.BorderSizePixel = 3
+GodHut.Position = UDim2.new(0.572895288, 0, 0.327337861, 0)
+GodHut.Size = UDim2.new(0, 194, 0, 25)
+GodHut.Font = Enum.Font.Cartoon
+GodHut.Text = "God Hut [G]"
+GodHut.TextColor3 = Color3.new(1, 1, 1)
+GodHut.TextScaled = true
+GodHut.TextSize = 14
+GodHut.TextStrokeColor3 = Color3.new(1, 0, 0.0156863)
+GodHut.TextWrapped = true
+
+MadebyTokumeiAresuu.Name = "Made by Tokumei/Aresuu"
+MadebyTokumeiAresuu.Parent = BoogaBV1_2
+MadebyTokumeiAresuu.BackgroundColor3 = Color3.new(0.215686, 0.215686, 0.215686)
+MadebyTokumeiAresuu.BorderColor3 = Color3.new(0, 0, 0)
+MadebyTokumeiAresuu.BorderSizePixel = 5
+MadebyTokumeiAresuu.Position = UDim2.new(0.704355955, 0, 0.699711502, 0)
+MadebyTokumeiAresuu.Size = UDim2.new(0, 144, 0, 34)
+MadebyTokumeiAresuu.Font = Enum.Font.Cartoon
+MadebyTokumeiAresuu.Text = "Made by Tokumei/Aresuu"
+MadebyTokumeiAresuu.TextColor3 = Color3.new(0, 0, 0)
+MadebyTokumeiAresuu.TextSize = 14
+
+CreditOwners.Name = "Credit Owners"
+CreditOwners.Parent = MadebyTokumeiAresuu
+CreditOwners.BackgroundColor3 = Color3.new(0.215686, 0.215686, 0.215686)
+CreditOwners.BorderColor3 = Color3.new(0, 0, 0)
+CreditOwners.BorderSizePixel = 5
+CreditOwners.Position = UDim2.new(-0.686473131, 0, 1.04991567, 0)
+CreditOwners.Size = UDim2.new(0, 243, 0, 34)
+CreditOwners.Font = Enum.Font.Cartoon
+CreditOwners.Text = "Credit to the Owners of Scripts that i Used for this GUI"
+CreditOwners.TextColor3 = Color3.new(0, 0, 0)
+CreditOwners.TextScaled = true
+CreditOwners.TextSize = 14
+CreditOwners.TextWrapped = true
+
+AutoBreak.Name = "AutoBreak"
+AutoBreak.Parent = BoogaBV1_2
+AutoBreak.BackgroundColor3 = Color3.new(0, 0, 0)
+AutoBreak.BorderColor3 = Color3.new(0, 0, 0)
+AutoBreak.BorderSizePixel = 3
+AutoBreak.Position = UDim2.new(0.0164271053, 0, 0.735780597, 0)
+AutoBreak.Size = UDim2.new(0, 117, 0, 25)
+AutoBreak.Font = Enum.Font.Cartoon
+AutoBreak.Text = "Auto Break"
+AutoBreak.TextColor3 = Color3.new(1, 1, 1)
+AutoBreak.TextScaled = true
+AutoBreak.TextSize = 14
+AutoBreak.TextStrokeColor3 = Color3.new(1, 0, 0.0156863)
+AutoBreak.TextWrapped = true
+
+Breakkey.Name = "Breakkey"
+Breakkey.Parent = AutoBreak
+Breakkey.BackgroundColor3 = Color3.new(0.368627, 0.368627, 0.368627)
+Breakkey.BorderColor3 = Color3.new(0, 0, 0)
+Breakkey.BorderSizePixel = 3
+Breakkey.Position = UDim2.new(1.15199995, 0, 0, 0)
+Breakkey.Size = UDim2.new(0, 83, 0, 25)
+Breakkey.Font = Enum.Font.Cartoon
+Breakkey.PlaceholderColor3 = Color3.new(0.698039, 0.698039, 0.698039)
+Breakkey.Text = "Key Bind"
+Breakkey.TextColor3 = Color3.new(0, 0, 0)
+Breakkey.TextScaled = true
+Breakkey.TextSize = 14
+Breakkey.TextStrokeColor3 = Color3.new(1, 0, 0.0156863)
+Breakkey.TextWrapped = true
+
+EmeraldSetCrafter.Name = "Emerald Set Crafter"
+EmeraldSetCrafter.Parent = BoogaBV1_2
+EmeraldSetCrafter.BackgroundColor3 = Color3.new(0, 0, 0)
+EmeraldSetCrafter.BorderColor3 = Color3.new(0, 0, 0)
+EmeraldSetCrafter.BorderSizePixel = 3
+EmeraldSetCrafter.Position = UDim2.new(0.0164271053, 0, 0.156479806, 0)
+EmeraldSetCrafter.Size = UDim2.new(0, 117, 0, 25)
+EmeraldSetCrafter.Font = Enum.Font.Cartoon
+EmeraldSetCrafter.Text = "Emerald Set Crafter"
+EmeraldSetCrafter.TextColor3 = Color3.new(1, 1, 1)
+EmeraldSetCrafter.TextScaled = true
+EmeraldSetCrafter.TextSize = 14
+EmeraldSetCrafter.TextStrokeColor3 = Color3.new(1, 0, 0.0156863)
+EmeraldSetCrafter.TextWrapped = true
+
+FEme.Name = "FEme"
+FEme.Parent = EmeraldSetCrafter
+FEme.BackgroundColor3 = Color3.new(0.301961, 0.301961, 0.301961)
+FEme.BorderColor3 = Color3.new(0, 0, 0)
+FEme.BorderSizePixel = 5
+FEme.Position = UDim2.new(-1.64102566, 0, -1.47999966, 0)
+FEme.Size = UDim2.new(0, 169, 0, 199)
+FEme.Visible = false
+
+SFrameEme.Name = "SFrameEme"
+SFrameEme.Parent = FEme
+SFrameEme.BackgroundColor3 = Color3.new(0.301961, 0.301961, 0.301961)
+SFrameEme.Size = UDim2.new(0, 157, 0, 199)
+
+EmeraldHelmet.Name = "Emerald Helmet"
+EmeraldHelmet.Parent = SFrameEme
+EmeraldHelmet.BackgroundColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+EmeraldHelmet.Position = UDim2.new(0.055555556, 0, 0.0355654769, 0)
+EmeraldHelmet.Size = UDim2.new(0, 131, 0, 39)
+EmeraldHelmet.Font = Enum.Font.SourceSans
+EmeraldHelmet.Text = "Emerald Helmet"
+EmeraldHelmet.TextColor3 = Color3.new(0, 0, 0)
+EmeraldHelmet.TextSize = 14
+
+EmeraldChestplate.Name = "Emerald Chestplate"
+EmeraldChestplate.Parent = SFrameEme
+EmeraldChestplate.BackgroundColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+EmeraldChestplate.Position = UDim2.new(0.055555556, 0, 0.131398827, 0)
+EmeraldChestplate.Size = UDim2.new(0, 131, 0, 39)
+EmeraldChestplate.Font = Enum.Font.SourceSans
+EmeraldChestplate.Text = "Emerald Chestplate"
+EmeraldChestplate.TextColor3 = Color3.new(0, 0, 0)
+EmeraldChestplate.TextSize = 14
+
+EmeraldGreaves.Name = "Emerald Greaves"
+EmeraldGreaves.Parent = SFrameEme
+EmeraldGreaves.BackgroundColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+EmeraldGreaves.Position = UDim2.new(0.055555556, 0, 0.231398791, 0)
+EmeraldGreaves.Size = UDim2.new(0, 131, 0, 39)
+EmeraldGreaves.Font = Enum.Font.SourceSans
+EmeraldGreaves.Text = "Emerald Greaves"
+EmeraldGreaves.TextColor3 = Color3.new(0, 0, 0)
+EmeraldGreaves.TextSize = 14
+
+EmeraldPick.Name = "Emerald Pick"
+EmeraldPick.Parent = SFrameEme
+EmeraldPick.BackgroundColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+EmeraldPick.Position = UDim2.new(0.055555556, 0, 0.333482146, 0)
+EmeraldPick.Size = UDim2.new(0, 131, 0, 39)
+EmeraldPick.Font = Enum.Font.SourceSans
+EmeraldPick.Text = "Emerald Pick"
+EmeraldPick.TextColor3 = Color3.new(0, 0, 0)
+EmeraldPick.TextSize = 14
+
+EmeraldBlade.Name = "Emerald Blade"
+EmeraldBlade.Parent = SFrameEme
+EmeraldBlade.BackgroundColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+EmeraldBlade.Position = UDim2.new(0.0555555597, 0, 0.433482111, 0)
+EmeraldBlade.Size = UDim2.new(0, 131, 0, 39)
+EmeraldBlade.Font = Enum.Font.SourceSans
+EmeraldBlade.Text = "Emerald Blade"
+EmeraldBlade.TextColor3 = Color3.new(0, 0, 0)
+EmeraldBlade.TextSize = 14
+
+EmeraldAxe.Name = "Emerald Axe"
+EmeraldAxe.Parent = SFrameEme
+EmeraldAxe.BackgroundColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+EmeraldAxe.Position = UDim2.new(0.0555555597, 0, 0.539732158, 0)
+EmeraldAxe.Size = UDim2.new(0, 131, 0, 39)
+EmeraldAxe.Font = Enum.Font.SourceSans
+EmeraldAxe.Text = "Emerald Axe"
+EmeraldAxe.TextColor3 = Color3.new(0, 0, 0)
+EmeraldAxe.TextSize = 14
+
+EmeraldBag.Name = "Emerald Bag"
+EmeraldBag.Parent = SFrameEme
+EmeraldBag.BackgroundColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+EmeraldBag.Position = UDim2.new(0.0555555597, 0, 0.637648761, 0)
+EmeraldBag.Size = UDim2.new(0, 131, 0, 39)
+EmeraldBag.Font = Enum.Font.SourceSans
+EmeraldBag.Text = "Emerald Bag"
+EmeraldBag.TextColor3 = Color3.new(0, 0, 0)
+EmeraldBag.TextSize = 14
+
+GodSetCrafter.Name = "God Set Crafter"
+GodSetCrafter.Parent = BoogaBV1_2
+GodSetCrafter.BackgroundColor3 = Color3.new(0, 0, 0)
+GodSetCrafter.BorderColor3 = Color3.new(0, 0, 0)
+GodSetCrafter.BorderSizePixel = 3
+GodSetCrafter.Position = UDim2.new(0.0164270997, 0, 0.310994625, 0)
+GodSetCrafter.Size = UDim2.new(0, 117, 0, 25)
+GodSetCrafter.Font = Enum.Font.Cartoon
+GodSetCrafter.Text = "God Set Crafter"
+GodSetCrafter.TextColor3 = Color3.new(1, 1, 1)
+GodSetCrafter.TextScaled = true
+GodSetCrafter.TextSize = 14
+GodSetCrafter.TextStrokeColor3 = Color3.new(1, 0, 0.0156863)
+GodSetCrafter.TextWrapped = true
+
+FGod.Name = "FGod"
+FGod.Parent = GodSetCrafter
+FGod.BackgroundColor3 = Color3.new(0.301961, 0.301961, 0.301961)
+FGod.BorderColor3 = Color3.new(0, 0, 0)
+FGod.BorderSizePixel = 5
+FGod.Position = UDim2.new(-1.64102578, 0, -2.95999932, 0)
+FGod.Size = UDim2.new(0, 169, 0, 199)
+FGod.Visible = false
+
+SFrameGod.Name = "SFrameGod"
+SFrameGod.Parent = FGod
+SFrameGod.BackgroundColor3 = Color3.new(0.301961, 0.301961, 0.301961)
+SFrameGod.Size = UDim2.new(0, 161, 0, 199)
+
+GodHalo.Name = "God Halo"
+GodHalo.Parent = SFrameGod
+GodHalo.BackgroundColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+GodHalo.Position = UDim2.new(0.055555556, 0, 0.0334821418, 0)
+GodHalo.Size = UDim2.new(0, 131, 0, 39)
+GodHalo.Font = Enum.Font.SourceSans
+GodHalo.Text = "God Halo"
+GodHalo.TextColor3 = Color3.new(0, 0, 0)
+GodHalo.TextSize = 14
+
+GodChestplate.Name = "God Chestplate"
+GodChestplate.Parent = SFrameGod
+GodChestplate.BackgroundColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+GodChestplate.Position = UDim2.new(0.055555556, 0, 0.135565475, 0)
+GodChestplate.Size = UDim2.new(0, 131, 0, 39)
+GodChestplate.Font = Enum.Font.SourceSans
+GodChestplate.Text = "God Chestplate"
+GodChestplate.TextColor3 = Color3.new(0, 0, 0)
+GodChestplate.TextSize = 14
+
+GodLegs.Name = "God Legs"
+GodLegs.Parent = SFrameGod
+GodLegs.BackgroundColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+GodLegs.Position = UDim2.new(0.055555556, 0, 0.237648815, 0)
+GodLegs.Size = UDim2.new(0, 131, 0, 39)
+GodLegs.Font = Enum.Font.SourceSans
+GodLegs.Text = "God Legs"
+GodLegs.TextColor3 = Color3.new(0, 0, 0)
+GodLegs.TextSize = 14
+
+GodRock.Name = "God Rock"
+GodRock.Parent = SFrameGod
+GodRock.BackgroundColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+GodRock.Position = UDim2.new(0.055555556, 0, 0.337648839, 0)
+GodRock.Size = UDim2.new(0, 131, 0, 39)
+GodRock.Font = Enum.Font.SourceSans
+GodRock.Text = "God Rock"
+GodRock.TextColor3 = Color3.new(0, 0, 0)
+GodRock.TextSize = 14
+
+GodPick.Name = "God Pick"
+GodPick.Parent = SFrameGod
+GodPick.BackgroundColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+GodPick.Position = UDim2.new(0.0555555597, 0, 0.541815639, 0)
+GodPick.Size = UDim2.new(0, 131, 0, 39)
+GodPick.Font = Enum.Font.SourceSans
+GodPick.Text = "God Pick"
+GodPick.TextColor3 = Color3.new(0, 0, 0)
+GodPick.TextSize = 14
+
+GodAxe.Name = "God Axe"
+GodAxe.Parent = SFrameGod
+GodAxe.BackgroundColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+GodAxe.Position = UDim2.new(0.0555555597, 0, 0.443898767, 0)
+GodAxe.Size = UDim2.new(0, 131, 0, 39)
+GodAxe.Font = Enum.Font.SourceSans
+GodAxe.Text = "God Axe"
+GodAxe.TextColor3 = Color3.new(0, 0, 0)
+GodAxe.TextSize = 14
+
+GodBag.Name = "God Bag"
+GodBag.Parent = SFrameGod
+GodBag.BackgroundColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+GodBag.Position = UDim2.new(0.0555555597, 0, 0.739732146, 0)
+GodBag.Size = UDim2.new(0, 131, 0, 39)
+GodBag.Font = Enum.Font.SourceSans
+GodBag.Text = "God Bag"
+GodBag.TextColor3 = Color3.new(0, 0, 0)
+GodBag.TextSize = 14
+
+OOFHorn.Name = "OOF Horn"
+OOFHorn.Parent = SFrameGod
+OOFHorn.BackgroundColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+OOFHorn.Position = UDim2.new(0.055555556, 0, 0.641815484, 0)
+OOFHorn.Size = UDim2.new(0, 131, 0, 39)
+OOFHorn.Font = Enum.Font.SourceSans
+OOFHorn.Text = "OOF Horn"
+OOFHorn.TextColor3 = Color3.new(0, 0, 0)
+OOFHorn.TextSize = 14
+
+VoidSetCrafter.Name = "Void Set Crafter"
+VoidSetCrafter.Parent = BoogaBV1_2
+VoidSetCrafter.BackgroundColor3 = Color3.new(0, 0, 0)
+VoidSetCrafter.BorderColor3 = Color3.new(0, 0, 0)
+VoidSetCrafter.BorderSizePixel = 3
+VoidSetCrafter.Position = UDim2.new(0.291581094, 0, 0.155744419, 0)
+VoidSetCrafter.Size = UDim2.new(0, 117, 0, 25)
+VoidSetCrafter.Font = Enum.Font.Cartoon
+VoidSetCrafter.Text = "Void Set Crafter"
+VoidSetCrafter.TextColor3 = Color3.new(1, 1, 1)
+VoidSetCrafter.TextScaled = true
+VoidSetCrafter.TextSize = 14
+VoidSetCrafter.TextStrokeColor3 = Color3.new(1, 0, 0.0156863)
+VoidSetCrafter.TextWrapped = true
+
+FVOID.Name = "FVOID"
+FVOID.Parent = VoidSetCrafter
+FVOID.BackgroundColor3 = Color3.new(0.301961, 0.301961, 0.301961)
+FVOID.BorderColor3 = Color3.new(0, 0, 0)
+FVOID.BorderSizePixel = 5
+FVOID.Position = UDim2.new(-2.78632498, 0, -1.47999954, 0)
+FVOID.Size = UDim2.new(0, 169, 0, 199)
+FVOID.Visible = false
+
+SFrameVoid.Name = "SFrameVoid"
+SFrameVoid.Parent = FVOID
+SFrameVoid.Active = true
+SFrameVoid.BackgroundColor3 = Color3.new(0.301961, 0.301961, 0.301961)
+SFrameVoid.Size = UDim2.new(0, 157, 0, 199)
+
+VoidShroud.Name = "Void Shroud"
+VoidShroud.Parent = SFrameVoid
+VoidShroud.BackgroundColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+VoidShroud.Position = UDim2.new(0.055555556, 0, 0.0334821418, 0)
+VoidShroud.Size = UDim2.new(0, 131, 0, 39)
+VoidShroud.Font = Enum.Font.SourceSans
+VoidShroud.Text = "Void Shroud"
+VoidShroud.TextColor3 = Color3.new(0, 0, 0)
+VoidShroud.TextSize = 14
+
+VoidChestplate.Name = "Void Chestplate"
+VoidChestplate.Parent = SFrameVoid
+VoidChestplate.BackgroundColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+VoidChestplate.Position = UDim2.new(0.055555556, 0, 0.151785716, 0)
+VoidChestplate.Size = UDim2.new(0, 131, 0, 39)
+VoidChestplate.Font = Enum.Font.SourceSans
+VoidChestplate.Text = "Void Shroud"
+VoidChestplate.TextColor3 = Color3.new(0, 0, 0)
+VoidChestplate.TextSize = 14
+
+VoidGreaves.Name = "Void Greaves"
+VoidGreaves.Parent = SFrameVoid
+VoidGreaves.BackgroundColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+VoidGreaves.Position = UDim2.new(0.055555556, 0, 0.272321433, 0)
+VoidGreaves.Size = UDim2.new(0, 131, 0, 39)
+VoidGreaves.Font = Enum.Font.SourceSans
+VoidGreaves.Text = "Void Shroud"
+VoidGreaves.TextColor3 = Color3.new(0, 0, 0)
+VoidGreaves.TextSize = 14
+
+VoidBag.Name = "Void Bag"
+VoidBag.Parent = SFrameVoid
+VoidBag.BackgroundColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+VoidBag.Position = UDim2.new(0.055555556, 0, 0.383928567, 0)
+VoidBag.Size = UDim2.new(0, 131, 0, 39)
+VoidBag.Font = Enum.Font.SourceSans
+VoidBag.Text = "Void Shroud"
+VoidBag.TextColor3 = Color3.new(0, 0, 0)
+VoidBag.TextSize = 14
+
+TeletoVoid.Name = "Tele to Void"
+TeletoVoid.Parent = BoogaBV1_2
+TeletoVoid.BackgroundColor3 = Color3.new(0, 0, 0)
+TeletoVoid.BorderColor3 = Color3.new(0, 0, 0)
+TeletoVoid.BorderSizePixel = 3
+TeletoVoid.Position = UDim2.new(0.50102669, 0, 0.502848029, 0)
+TeletoVoid.Size = UDim2.new(0, 194, 0, 25)
+TeletoVoid.Font = Enum.Font.Cartoon
+TeletoVoid.Text = "Teleport to Void"
+TeletoVoid.TextColor3 = Color3.new(1, 1, 1)
+TeletoVoid.TextScaled = true
+TeletoVoid.TextSize = 14
+TeletoVoid.TextStrokeColor3 = Color3.new(1, 0, 0.0156863)
+TeletoVoid.TextWrapped = true
+
+Open.Name = "Open"
+Open.Parent = BoogaBV1
+Open.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+Open.BorderColor3 = Color3.new(0.709804, 0, 0.0117647)
+Open.BorderSizePixel = 6
+Open.Position = UDim2.new(0.00740055507, 0, 0.553784847, 0)
+Open.Size = UDim2.new(0, 114, 0, 21)
+Open.Font = Enum.Font.Cartoon
+Open.Text = "Open"
+Open.TextColor3 = Color3.new(0, 0, 0)
+Open.TextScaled = true
+Open.TextSize = 14
+Open.TextWrapped = true
+
+Close.Name = "Close"
+Close.Parent = BoogaBV1
+Close.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+Close.BorderColor3 = Color3.new(0, 0, 0)
+Close.BorderSizePixel = 6
+Close.Position = UDim2.new(0.00740055507, 0, 0.553784847, 0)
+Close.Size = UDim2.new(0, 114, 0, 21)
+Close.Font = Enum.Font.Cartoon
+Close.Text = "Close"
+Close.TextColor3 = Color3.new(0, 0, 0)
+Close.TextScaled = true
+Close.TextSize = 14
+Close.TextWrapped = true
+-- Scripts:
+
+EmeraldSetCrafter.MouseButton1Click:connect(function()
+                if EmeraldSetCrafter == true then
+                    EmeraldSetCrafter = false
+                    FEme.Visible = false
+                else
+                    EmeraldSetCrafter = true
+                    FEme.Visible = true
+                end
+        end)
+
+GodSetCrafter.MouseButton1Click:connect(function()
+                if GodSetCrafter == true then
+                    GodSetCrafter = false
+                    FGod.Visible = false
+                else
+                    GodSetCrafter = true
+                    FGod.Visible = true
+                end
+        end)
+
+VoidSetCrafter.MouseButton1Click:connect(function()
+                if VoidSetCrafter == true then
+                    VoidSetCrafter = false
+                    FVOID.Visible = false
+                else
+                    VoidSetCrafter = true
+                    FVOID.Visible = true
+                end
+        end)
+
+VoidBag.MouseButton1Click:connect(function()
+local A_1   = "Void Bag"
+local Event = game:GetService("ReplicatedStorage").Events.CraftItem
+Event:FireServer(A_1)
+end)
+
+VoidShroud.MouseButton1Click:connect(function()
+local A_1   = "Void Shroud"
+local Event = game:GetService("ReplicatedStorage").Events.CraftItem
+Event:FireServer(A_1)
+end)
+
+VoidChestplate.MouseButton1Click:connect(function()
+local A_1   = "Void Chestplate"
+local Event = game:GetService("ReplicatedStorage").Events.CraftItem
+Event:FireServer(A_1)
+end)
+
+VoidGreaves.MouseButton1Click:connect(function()
+local A_1   = "Void Greaves"
+local Event = game:GetService("ReplicatedStorage").Events.CraftItem
+Event:FireServer(A_1)
+end)
+
+EmeraldAxe.MouseButton1Click:connect(function()
+local A_1   = "Emerald Axe"
+local Event = game:GetService("ReplicatedStorage").Events.CraftItem
+Event:FireServer(A_1)
+end)
+
+EmeraldBlade.MouseButton1Click:connect(function()
+local A_1   = "Emerald Blade"
+local Event = game:GetService("ReplicatedStorage").Events.CraftItem
+Event:FireServer(A_1)
+end)
+
+EmeraldPick.MouseButton1Click:connect(function()
+local A_1   = "Emerald Pick"
+local Event = game:GetService("ReplicatedStorage").Events.CraftItem
+Event:FireServer(A_1)
+end)
+
+EmeraldBag.MouseButton1Click:connect(function()
+local A_1   = "Emerald Bag"
+local Event = game:GetService("ReplicatedStorage").Events.CraftItem
+Event:FireServer(A_1)
+end)
+
+EmeraldHelmet.MouseButton1Click:connect(function()
+local A_1   = "Emerald Helmet"
+local Event = game:GetService("ReplicatedStorage").Events.CraftItem
+Event:FireServer(A_1)
+end)
+
+EmeraldChestplate.MouseButton1Click:connect(function()
+local A_1   = "Emerald Chestplate"
+local Event = game:GetService("ReplicatedStorage").Events.CraftItem
+Event:FireServer(A_1)
+end)
+
+EmeraldGreaves.MouseButton1Click:connect(function()
+local A_1   = "Emerald Greaves"
+local Event = game:GetService("ReplicatedStorage").Events.CraftItem
+Event:FireServer(A_1)
+end)
+
+GodAxe.MouseButton1Click:connect(function()
+local A_1   = "God Axe"
+local Event = game:GetService("ReplicatedStorage").Events.CraftItem
+Event:FireServer(A_1)
+end)
+
+GodRock.MouseButton1Click:connect(function()
+local A_1   = "God Rock"
+local Event = game:GetService("ReplicatedStorage").Events.CraftItem
+Event:FireServer(A_1)
+end)
+
+GodPick.MouseButton1Click:connect(function()
+local A_1   = "God Pick"
+local Event = game:GetService("ReplicatedStorage").Events.CraftItem
+Event:FireServer(A_1)
+end)
+
+GodHalo.MouseButton1Click:connect(function()
+local A_1   = "God Halo"
+local Event = game:GetService("ReplicatedStorage").Events.CraftItem
+Event:FireServer(A_1)
+end)
+
+GodChestplate.MouseButton1Click:connect(function()
+local A_1   = "God Chestplate"
+local Event = game:GetService("ReplicatedStorage").Events.CraftItem
+Event:FireServer(A_1)
+end)
+
+GodLegs.MouseButton1Click:connect(function()
+local A_1   = "God Legs"
+local Event = game:GetService("ReplicatedStorage").Events.CraftItem
+Event:FireServer(A_1)
+end)
+
+GodBag.MouseButton1Click:connect(function()
+local A_1   = "God Bag"
+local Event = game:GetService("ReplicatedStorage").Events.CraftItem
+Event:FireServer(A_1)
+end)
+
+OOFHorn.MouseButton1Click:connect(function()
+local A_1   = "OOF Horn"
+local Event = game:GetService("ReplicatedStorage").Events.CraftItem
+Event:FireServer(A_1)
+end)
+
+
+Open.MouseButton1Click:connect(function()
+	BoogaBV1_2.Visible = true
+	Open.Visible = false
+	Close.Visible = true
+end)
+
+Close.MouseButton1Click:connect(function()
+	BoogaBV1_2.Visible = false
+	Open.Visible = true
+	Close.Visible = false
+end)
+
+
+InfinityChest.MouseButton1Down:connect(function()
+ local plr = game:GetService("Players").LocalPlayer
+       local mouse = plr:GetMouse()
+       mouse.KeyDown:connect(function(key)
+           if key == "q" then
+       local Event = game:GetService("ReplicatedStorage").Events.PlaceStructure
+       Torso = game.Players.LocalPlayer.Character.UpperTorso
+       b = Torso.Position + Torso.CFrame.lookVector * 10
+       local c = b.x
+       local d = b.y - 2
+       local e = b.z
+       for i = 1,1 do
+       local A_1 = "Infinity Chest"
+       local A_2 = CFrame.new(c, d, e, 1, 0, 0, 0, 1, -5.56028681e-08, 0, -5.56028681e-08, 1)
+       local A_3 = 0
+           Event:FireServer(A_1, A_2, A_3)
+       end end end)
+end)
+
+
+CraftAnyItem.MouseButton1Click:connect(function()
+	local event = game.ReplicatedStorage.Events.CraftItem
+	local item = CraftItem.Text
+	event:FireServer(item)
+end)
+
+GodHut.MouseButton1Click:connect(function()
+	    local plr = game:GetService("Players").LocalPlayer
+        local mouse = plr:GetMouse()
+        mouse.KeyDown:connect(function(key)
+            if key == "g" then
+        local Event = game:GetService("ReplicatedStorage").Events.PlaceStructure
+        Torso = game.Players.LocalPlayer.Character.UpperTorso
+        b = Torso.Position + Torso.CFrame.lookVector * 10
+        local c = b.x
+        local d = b.y - 2
+        local e = b.z
+        for i = 1,1 do
+        local A_1 = "God Hut"
+        local A_2 = CFrame.new(c, d, e, 1, 0, 0, 0, 1, -5.56028681e-08, 0, -5.56028681e-08, 1)
+        local A_3 = 0
+            Event:FireServer(A_1, A_2, A_3)
+        end end end)
+end)
+
+AutoPickUp.MouseButton1Click:connect(function()
+local Objects;
+local Pickup = function(Character)
+    local myPos = Character.HumanoidRootPart.Position
+    local Objects = {}
+    for i,v in pairs(workspace:GetChildren()) do
+        if v:FindFirstChild("Pickup") ~= nil and v.ClassName == "Part" then
+            local Pos = v.Position
+            local Distance = (myPos - Pos).magnitude
+            if Distance < 40 then
+                table.insert(Objects, v)
+            end
+            elseif v:FindFirstChild("Pickup") ~= nil and v:FindFirstChild("Part") ~= nil and v.Part.ClassName == "Part" then
+            local Pos = v.Part.Position
+            local Distance = (myPos - Pos).magnitude
+            if Distance < 40 then
+                table.insert(Objects, v)
+            end
+             elseif v:FindFirstChild("Pickup") ~= nil and v.ClassName == "UnionOperation" then
+             local Pos = v.Position
+            local Distance = (myPos - Pos).magnitude
+            if Distance < 40 then
+                table.insert(Objects, v)
+            end
+        end
+    end
+    for i,v in pairs(Objects) do
+    for i=1,10 do
+    v.Position = myPos
+    game:GetService("ReplicatedStorage").Events.Pickup:FireServer(v)
+    end
+    end
+end
+wait(1)
+local mouse = game:GetService("Players").LocalPlayer:GetMouse()
+ 
+mouse.KeyDown:connect(function(key)
+    if key == AutoPickUpBind.Text then
+print'AutoPicked-up YEET'
+Pickup(game.Players.LocalPlayer.Character)
+end
+end)
+end)
+
+local plr = game:GetService("Players").LocalPlayer
+local char = plr.Character
+local mouse = game:GetService("Players").LocalPlayer:GetMouse()
+local hum = char:FindFirstChild("HumanoidRootPart")
+
+--SpeedVariables
+local plr = game:GetService("Players").LocalPlayer
+local char = plr.Character
+local mouse = game:GetService("Players").LocalPlayer:GetMouse()
+local hum = char:FindFirstChild("HumanoidRootPart")
+--yeet
+Speed.MouseButton1Down:connect(function()
+    local plr = game:GetService("Players").LocalPlayer
+    local char = plr.Character
+    local mouse = game:GetService("Players").LocalPlayer:GetMouse()
+    local hum = char:FindFirstChild("HumanoidRootPart")
+    mouse.KeyDown:connect(function(key)
+        if key == SpeedBind.Text then
+            loop = true
+            while loop do
+                hum.CFrame = hum.CFrame + hum.CFrame.lookVector * 3
+                wait()
+            end
+            end
+            end)
+    end)
+    
+    mouse.KeyUp:connect(function(key)
+        if key == SpeedBind.Text then
+            loop = false
+        end
+end)
+
+AutoBreak.MouseButton1Click:connect(function()
+local mouse = game:GetService("Players").LocalPlayer:GetMouse()
+local breaking=false
+mouse.KeyDown:connect(function(key)
+    if key == Breakkey.Text then
+        breaking = true
+        while breaking and wait(0.1) do
+local part = game:GetService("Players").LocalPlayer:GetMouse().Target
+local one = game:GetService("ReplicatedStorage").RelativeTime.Value
+local two = {part,part,part,part}
+game:GetService("ReplicatedStorage").Events.SwingTool:FireServer(one, two)
+        end
+        end
+end)
+mouse.KeyUp:connect(function(key)
+    if key == Breakkey.Text then
+        breaking = false
+    end
+    end)
+end)
+
+RevizV2.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/8zh7FiHv"))()
+end)
+
+TeletoVoid.MouseButton1Click:connect(function()
+	game:GetService("TeleportService"):Teleport(2021740958, game.Players.LocalPlayer)
+end)
